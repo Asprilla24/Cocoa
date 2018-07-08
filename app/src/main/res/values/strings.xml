@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">CoCoA</string>
+    <string name="action_settings">Settings</string>
+    <string name="openDrawer">Drawer dibuka</string>
+    <string name="closeDrawer">Drawer ditutup</string>
+    <string name="navigation_view_item_1">Beranda</string>
+    <string name="navigation_view_item_2">Profil</string>
+    <string name="navigation_view_item_3">Daftar</string>
+    <string name="navigasi_kategori_2">Sub Item Navigasi</string>
+    <string name="navigation_view_item_4">Settings</string>
+    <string name="navigation_view_item_5">About</string>
+    <string name="loginlabel">Verifikasi nomor ponsel kamu untuk menikmati layanan dari CoCoA</string>
+    <string name="logindec">Saat ini kami hanya mendukung nomor ponsel dari Indonesia saja.</string>
+    <string name="loginbot">Dengan menekan tombol verifikasi, Saya setuju dengan</string>
+    <string name="verif">Masukkan 6 digit kode verifikasi yang telah dikirim ia SMS ke +62********</string>
+    <string name="placeholder_peraturanto">Perhatikan Gambar dibawah ini </string>
+    <string name="placeholder_benar">Suka</string>
+    <string name="placeholder_salah">Tidak Suka</string>
+    <string name="placeholder_menu_question">%1$d/%2$d</string>
+
+    <string-array name="semester">
+        <item>Semester : </item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+
+    <string-array name="kelas">
+        <item>Kelas : </item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

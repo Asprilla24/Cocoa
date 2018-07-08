@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "294473060847",
+    "firebase_url": "https://mypsychologist-ab35b.firebaseio.com",
+    "project_id": "mypsychologist-ab35b",
+    "storage_bucket": "mypsychologist-ab35b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:294473060847:android:de948abfd4b7d944",
+        "android_client_info": {
+          "package_name": "mlg.warkop.com.mypsychologist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "294473060847-j5mv5urdlh99q7cp83trfivg81ajbgrd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "mlg.warkop.com.mypsychologist",
+            "certificate_hash": "d6131cae493aef3c9f39cc1be0517026848332f9"
+          }
+        },
+        {
+          "client_id": "294473060847-iu4ek09pt2nu9f4ndnl3ih70u84mdkcu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEa4slL86Xz4jVFgZ62yPzhFnrxvVyLyM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "294473060847-iu4ek09pt2nu9f4ndnl3ih70u84mdkcu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

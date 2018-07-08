@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/text">
+
+    <RelativeLayout
+        android:id="@+id/layout_top"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <mlg.warkop.com.mypsychologist._sliders.SliderView
+                android:id="@+id/sliderView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+        </FrameLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/indicator_circle"/>
+
+        <LinearLayout
+            android:id="@+id/pagesContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="8dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/btnTestBm"
+        android:layout_below="@id/layout_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="tes"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:orientation="horizontal"
+        android:background="#FFFFFF">
+        <ImageButton
+            android:padding="10dp"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:background="@drawable/background_menu"
+            android:src="@drawable/tesbm_icon"
+            android:onClick="tes"
+            android:scaleType="fitCenter"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tes Bakat Minat"
+            android:textAlignment="center"
+            android:textSize="30dp"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/btnChat"
+        android:layout_below="@id/btnTestBm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="chat"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:orientation="horizontal"
+        android:background="#FFFFFF">
+        <ImageButton
+            android:padding="10dp"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:background="@drawable/background_menu"
+            android:src="@drawable/chat_icon"
+            android:onClick="chat"
+            android:scaleType="fitCenter"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Riwayat Chatting"
+            android:textAlignment="center"
+            android:textSize="30dp"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/btnPsycho"
+        android:layout_below="@id/btnChat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="psikologi"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:orientation="horizontal"
+        android:background="#FFFFFF">
+        <ImageButton
+            android:padding="13dp"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:background="@drawable/background_menu"
+            android:src="@drawable/psycho_icon"
+            android:onClick="psikologi"
+            android:scaleType="fitCenter"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Psikolog"
+            android:textAlignment="center"
+            android:textSize="30dp"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+</RelativeLayout>
